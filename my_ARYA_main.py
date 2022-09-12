@@ -17,7 +17,7 @@ if "hello arya"in talk.lower():
             a.texttosp("OK")
             a.google(t1)
             i=1
-        if "time" in t1:
+        if "what is the time" in t1:
             a.texttosp("OK")
             a.time_tell()
         if "search" in t1:
